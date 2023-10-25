@@ -1,0 +1,7 @@
+/* لینک فایلی که وظیفه بارگذاری فونت ها را برعهده دارد */
+/* this should placed before tailwind's directives */
+@import url("@assets/fonts/iransans/iransans.css");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* @import "./assets/fonts/iransans/iransans.css"; */

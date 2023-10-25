@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@pages/*": ["./src/pages/*"],
+      "@layouts/*": ["src/layouts/*"],
+      "@features/*": ["./src/features/*"],
+      "@stores/*": ["./src/stores/*"],
+      "@assets/*": ["./src/assets/*"]
+    }
+  }
+}
