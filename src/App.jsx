@@ -5,6 +5,7 @@ import HomePage from "@pages/Home";
 import { Login, Register, ForgetPass, ResetPass } from "@pages/auth";
 import { Course, Courses } from "@pages/courses";
 import { Article, Articles } from "@pages/articles";
+import AboutUs from "@pages/AboutUs";
 
 const router = createBrowserRouter([
   {
@@ -16,6 +17,7 @@ const router = createBrowserRouter([
       { path: "courses/:courseId", element: <Course /> },
       { path: "articles", element: <Articles /> },
       { path: "articles/:articleId", element: <Article /> },
+      { path: "aboutus", element: <AboutUs /> },
     ],
   },
   {
