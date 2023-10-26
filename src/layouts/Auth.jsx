@@ -1,6 +1,6 @@
 import { Outlet } from "react-router-dom";
-import { MiniHeader } from "@features/Navigations/header";
-import { MiniFooter } from "@features/Navigations/footer";
+import { MiniHeader } from "@features/navigation/header";
+import { MiniFooter } from "@features/navigation/footer";
 import authSVG from "@assets/images/backgrounds/auth.svg";
 
 function AuthLayout() {
