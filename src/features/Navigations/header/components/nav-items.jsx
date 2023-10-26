@@ -8,11 +8,13 @@ const headerItems = [
 
 function NavItems() {
   return (
-    <ul className="hidden sm:flex">
-      {headerItems.map((item, index) => (
-        <NavItem key={index} title={item.title} address={item.to} />
-      ))}
-    </ul>
+    <nav>
+      <ul className="hidden sm:flex">
+        {headerItems.map((item, index) => (
+          <NavItem key={index} title={item.title} address={item.to} />
+        ))}
+      </ul>
+    </nav>
   );
 }
 
